@@ -33,10 +33,6 @@ html {
 
 }
 
-p {
-
-}
-
 a {
     padding:            5px auto;
 }
@@ -63,3 +59,31 @@ header {
     font-size:          14px;
 
 }
+
+
+/* Responsive stuff */
+@media    (max-width: 450px) {
+
+    header {
+    margin:             10px 20px;
+    font-size:          20px;
+    font-family:        sans-serif;
+    text-align:         center;
+    font-weight:        bold;
+    font-style:         bold;
+    }
+
+    body {
+    margin:             10px 20px;
+    font-size:          14px;
+    font-family:        sans-serif;
+    text-align:         left;
+    font-weight:        normal;
+    font-style:         normal;
+    }
+
+    }
+
+
+
+

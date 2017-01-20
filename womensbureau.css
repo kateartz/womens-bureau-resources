@@ -26,8 +26,8 @@ html {
 
 @font-face {
     font-family: 'league_spartanregular';
-    src: url('leaguespartan-bold.woff2') format('woff2'),
-         url('leaguespartan-bold.woff') format('woff');
+    src: url('webfonts/leaguespartan-bold.woff2') format('woff2'),
+         url('webfonts/leaguespartan-bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 

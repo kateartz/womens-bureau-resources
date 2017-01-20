@@ -1,0 +1,32 @@
+/* CSS RESET - Jack Turner style, few enough rules you can grasp it in your mindbrain */
+* {
+    margin:             0;
+    padding:            0;
+    }
+  
+img {
+    border:             none;
+    vertical-align:     middle;
+    }
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight:        normal;
+    }
+
+html {
+    box-sizing:         border-box;
+    }
+
+*, *:before, *:after {
+    box-sizing:         inherit;
+    }
+
+/* Custom fonts */
+@font-face {
+    font-family: 'poppins_regularregular';
+    src: url('webfonts/poppins-regular.woff2') format('woff2'),
+         url('webfonts/poppins-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

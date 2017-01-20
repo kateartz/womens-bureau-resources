@@ -10,7 +10,7 @@ img {
     }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight:        bold;
+    font-weight:        normal;
     text-align:         center;
     }
 
@@ -23,11 +23,16 @@ html {
     }
 
 /* Custom fonts */
+
 @font-face {
-    font-family: 'poppins_regularregular';
-    src: url('webfonts/poppins-regular.woff2') format('woff2'),
-         url('webfonts/poppins-regular.woff') format('woff');
-    font-weight: normal;
+    font-family: 'League Spartan';
+    src: url('leaguespartan-bold.eot');
+    src: url('leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('leaguespartan-bold.woff2') format('woff2'),
+         url('leaguespartan-bold.woff') format('woff'),
+         url('leaguespartan-bold.ttf') format('truetype'),
+         url('leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-weight: bold;
     font-style: normal;
 
 }
@@ -45,13 +50,13 @@ body {
     margin:             20px 80px 60px;
     font-size:          16px;
     line-height:        1.4;
-    font-family:        'poppins_regularregular', 'Century Gothic', Helvetica, sans-serif;
+    font-family:        'League Spartan', Helvetica, sans-serif;
     }
 
 header {
     margin:             60px 20px 60px;
     font-size:          20px;
-    font-family:        'poppinssemibold', 'Century Gothic', Helvetica, sans-serif;
+    font-family:        'League Spartan', Helvetica, sans-serif;
     text-align:         center;
     }
 

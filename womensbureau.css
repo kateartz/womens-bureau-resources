@@ -1,7 +1,7 @@
 /* CSS RESET - Jack Turner style, few enough rules you can grasp it in your mindbrain */
 * {
-    margin:             0;
-    padding:            0;
+    margin:             100px;
+    padding:            100px;
     }
   
 img {
@@ -10,7 +10,8 @@ img {
     }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight:        normal;
+    font-weight:        bold;
+    text-align:         center;
     }
 
 html {
@@ -29,4 +30,12 @@ html {
     font-weight: normal;
     font-style: normal;
 
+}
+
+p {
+
+}
+
+a {
+    padding:            50px auto;
 }
